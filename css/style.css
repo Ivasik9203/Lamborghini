@@ -366,9 +366,36 @@ body{
     text-align: center;
 }
 
+.evo-white__video-link{
+    color: #fff;
+}
+
+.evo-white__video-link:hover {
+    color: #9F6B08;
+    transition: all 0.2s ease-in;
+    scale: 1.1;
+}
+
+.evo-white__video-link:hover #video-icon__big{
+    stroke: #fff;
+    fill: #9F6B08;
+    transition: all 0.2s ease-in;
+}
+
+.evo-white__video-link:hover #video-icon__small{
+    stroke: #fff;
+    fill: #9F6B08;
+    transition: all 0.2s ease-in;
+}
+
+.evo-white__video-link:hover #video-icon__triangle{
+    stroke: #9F6B08;
+    fill: #fff;
+    transition: all 0.2s ease-in;
+}
+
 .evo-white__video-link span{
     display: block;
-    color: #fff;
 }
 
 .blog{
@@ -418,6 +445,13 @@ body{
     top: 0;
     cursor: pointer;
     left: 50%;
+    fill: none;
+}
+
+.blog__button:hover{
+    stroke: #fff;
+    fill: #9F6B08;
+    transition: all 0.2s ease-in;
 }
 
 .swiper-button-left{
@@ -490,12 +524,22 @@ body{
     align-items: center;
 }
 
+.social-list__item:hover path{
+    transition: all 0.2 ease-in;
+    stroke: #9F6B08;
+}
+
 .footer__info-item dt,
 .footer__adress-title{
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.footer__info-item dd:hover{
+    color: #9F6B08;
+    transition: all 0.2s ease-in;
 }
 
 .footer__info-item dd{
